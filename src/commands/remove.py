@@ -1,7 +1,7 @@
 """Dedicated space for removing a project."""
 
 import click
-from .base_command import BaseCommand
+from ..models.base_command import BaseCommand
 
 
 class RemoveCommand(BaseCommand):

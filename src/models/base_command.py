@@ -1,6 +1,6 @@
 """Common part of all `commands` that oCLI can execute"""
 
-from ..config.config import Config
+from .config import Config
 from ..exceptions import handle_error
 from ..utils.helper import validate_project_name
 

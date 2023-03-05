@@ -4,7 +4,7 @@ import os
 import configparser
 import click
 
-from .base_command import BaseCommand
+from ..models.base_command import BaseCommand
 from ..exceptions import handle_error, InputError, IntegrityError
 from ..utils.docker_file import DockerFile
 from ..utils.docker_compose import DockerCompose
